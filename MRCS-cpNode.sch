@@ -7315,7 +7315,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
-<part name="I2CHDR" library="pinhead" deviceset="PINHD-1X4" device="/90"/>
+<part name="I2CHDR" library="pinhead" deviceset="PINHD-1X4" device="/90" value="0.100"/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="C4" library="SparkFun" deviceset="CAP" device="PTH2" value=".01uF"/>

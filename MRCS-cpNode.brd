@@ -1017,7 +1017,7 @@ design rules under a new name.
 <attribute name="VALUE" x="15.367" y="9.271" size="1.016" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="GND" library="SparkFun" package="MOLEX-1X2_LOCK" value="0.100" x="91.44" y="54.61" smashed="yes" rot="R180"/>
-<element name="I2CHDR" library="pinhead" package="1X04/90" value="" x="99.06" y="41.91" smashed="yes" rot="R270">
+<element name="I2CHDR" library="pinhead" package="1X04/90" value="0.100" x="99.06" y="41.91" smashed="yes" rot="R270">
 <attribute name="NAME" x="95.25" y="47.625" size="1.016" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="94.615" y="34.925" size="1.27" layer="27"/>
 </element>
