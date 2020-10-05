@@ -7284,32 +7284,32 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </class>
 </classes>
 <parts>
-<part name="SJ1" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ2" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ3" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ4" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ5" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ6" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ7" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ8" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ9" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ10" library="jumper" deviceset="SJ" device=""/>
+<part name="SJ1" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ2" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ3" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ4" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ5" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ6" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ7" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ8" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ9" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ10" library="jumper" deviceset="SJ" device="" value="OFF"/>
 <part name="U2" library="SparkFun" deviceset="NE555" device="P"/>
 <part name="U1" library="maxim" deviceset="MAX346*" device="PD" technology="5C"/>
 <part name="C1" library="SparkFun" deviceset="CAP" device="PTH2" value="0.1uF"/>
 <part name="C2" library="SparkFun" deviceset="CAP" device="PTH2" value=".01uF"/>
 <part name="C3" library="SparkFun" deviceset="CAP" device="PTH2" value=".01uF"/>
-<part name="R1" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W"/>
+<part name="R1" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W" value="12k"/>
 <part name="D1" library="diode" deviceset="1N4148" device="DO35-10"/>
-<part name="SJ11" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ12" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ13" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ14" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ15" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ16" library="jumper" deviceset="SJ" device=""/>
-<part name="IO1" library="SparkFun" deviceset="M08" device="1X08"/>
-<part name="IO2" library="SparkFun" deviceset="M08" device="1X08"/>
-<part name="LEDCOM" library="SparkFun" deviceset="M02" device="POLAR_LOCK"/>
+<part name="SJ11" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ12" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ13" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ14" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ15" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="SJ16" library="jumper" deviceset="SJ" device="" value="OFF"/>
+<part name="IO1" library="SparkFun" deviceset="M08" device="1X08" value="0.100"/>
+<part name="IO2" library="SparkFun" deviceset="M08" device="1X08" value="0.100"/>
+<part name="LEDCOM" library="SparkFun" deviceset="M02" device="POLAR_LOCK" value="0.100"/>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
@@ -7321,31 +7321,31 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C4" library="SparkFun" deviceset="CAP" device="PTH2" value=".01uF"/>
 <part name="C5" library="SparkFun" deviceset="CAP" device="PTH2" value=".01uF"/>
 <part name="R2" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W" value="470"/>
-<part name="GND" library="SparkFun" deviceset="M02" device="POLAR_LOCK"/>
+<part name="GND" library="SparkFun" deviceset="M02" device="POLAR_LOCK" value="0.100"/>
 <part name="P1" library="Discreter" deviceset="PAD-SOLDERJUMPER-2WAY" device="T" value="CA   CC"/>
 <part name="P+7" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$1" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
-<part name="U$2" library="MRCS-prop65warningTop" deviceset="CA-PROP65WARNING" device=""/>
+<part name="U$2" library="MRCS-prop65warningTop" deviceset="CA-PROP65WARNING" device="" value="Prop65"/>
 <part name="RS485-4" library="SPCoast" deviceset="CONNECTOR-CMRINET" device="3.5MM" value="3.5mm"/>
 <part name="RS485-1" library="SPCoast" deviceset="CONNECTOR-CMRINET" device=".156" value="Molex"/>
 <part name="RS485-2" library="SPCoast" deviceset="CONNECTOR-CMRINET" device=".156" value="Molex"/>
-<part name="TX" library="SparkFun-LED" deviceset="LED" device="3MM"/>
+<part name="TX" library="SparkFun-LED" deviceset="LED" device="3MM" value="G"/>
 <part name="BOARD1" library="SPCoast" deviceset="BOARD" device="69X100MRCS"/>
-<part name="BBLEO" library="SPCoast" deviceset="ARDUINO-BBLEO" device=""/>
+<part name="BBLEO" library="SPCoast" deviceset="ARDUINO-BBLEO" device="" value="Footprint"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+5" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+6" library="SparkFun" deviceset="VCC" device=""/>
-<part name="IO3" library="SparkFun" deviceset="M08" device="1X08"/>
-<part name="IO4" library="SparkFun" deviceset="M08" device="1X08"/>
-<part name="J1" library="SPCoast" deviceset="CONNECTOR-M08" device="LOCK_LONGPADS"/>
-<part name="J2" library="SPCoast" deviceset="CONNECTOR-M08" device="LOCK_LONGPADS"/>
+<part name="IO3" library="SparkFun" deviceset="M08" device="1X08" value="0.100"/>
+<part name="IO4" library="SparkFun" deviceset="M08" device="1X08" value="0.100"/>
+<part name="J1" library="SPCoast" deviceset="CONNECTOR-M08" device="LOCK_LONGPADS" value="0.100"/>
+<part name="J2" library="SPCoast" deviceset="CONNECTOR-M08" device="LOCK_LONGPADS" value="0.100"/>
 <part name="RS485-3" library="SPCoast" deviceset="CONNECTOR-CMRINET" device="3.5MM" value="3.5mm"/>
-<part name="CON1" library="SPCoast" deviceset="CONNECTOR-M06" device="SIP_LOCK"/>
-<part name="CON2" library="SPCoast" deviceset="CONNECTOR-M06" device="SIP_LOCK"/>
-<part name="CON3" library="SPCoast" deviceset="CONNECTOR-M06" device="SIP_LOCK"/>
-<part name="CON4" library="SPCoast" deviceset="CONNECTOR-M06" device="SIP_LOCK"/>
+<part name="CON1" library="SPCoast" deviceset="CONNECTOR-M06" device="SIP_LOCK" value="0.100"/>
+<part name="CON2" library="SPCoast" deviceset="CONNECTOR-M06" device="SIP_LOCK" value="0.100"/>
+<part name="CON3" library="SPCoast" deviceset="CONNECTOR-M06" device="SIP_LOCK" value="0.100"/>
+<part name="CON4" library="SPCoast" deviceset="CONNECTOR-M06" device="SIP_LOCK" value="0.100"/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+8" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+9" library="SparkFun" deviceset="VCC" device=""/>

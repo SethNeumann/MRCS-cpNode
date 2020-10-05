@@ -986,7 +986,7 @@ design rules under a new name.
 </pass>
 </autorouter>
 <elements>
-<element name="BBLEO" library="SPCoast" package="ARDUINO-BBLEO" value="" x="26.67" y="2.54" smashed="yes"/>
+<element name="BBLEO" library="SPCoast" package="ARDUINO-BBLEO" value="Footprint" x="26.67" y="2.54" smashed="yes"/>
 <element name="BOARD1" library="SPCoast" package="BOARD-DINRAIL-2.71IN-MRCS" value="BOARD69X100MRCS" x="0" y="0" smashed="yes"/>
 <element name="C1" library="SparkFun" package="CAP-PTH-SMALL2" value="0.1uF" x="48.26" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="49.022" y="11.43" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
@@ -1016,25 +1016,25 @@ design rules under a new name.
 <attribute name="NAME" x="11.43" y="10.541" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="15.367" y="9.271" size="1.016" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="GND" library="SparkFun" package="MOLEX-1X2_LOCK" value="" x="91.44" y="54.61" smashed="yes" rot="R180"/>
+<element name="GND" library="SparkFun" package="MOLEX-1X2_LOCK" value="0.100" x="91.44" y="54.61" smashed="yes" rot="R180"/>
 <element name="I2CHDR" library="pinhead" package="1X04/90" value="" x="99.06" y="41.91" smashed="yes" rot="R270">
 <attribute name="NAME" x="95.25" y="47.625" size="1.016" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="94.615" y="34.925" size="1.27" layer="27"/>
 </element>
-<element name="IO1" library="SparkFun" package="1X08" value="" x="83.82" y="52.705" smashed="yes" rot="R180">
+<element name="IO1" library="SparkFun" package="1X08" value="0.100" x="83.82" y="52.705" smashed="yes" rot="R180">
 <attribute name="NAME" x="85.1662" y="50.8762" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="85.09" y="55.88" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="IO2" library="SparkFun" package="1X08" value="" x="63.5" y="52.705" smashed="yes" rot="R180">
+<element name="IO2" library="SparkFun" package="1X08" value="0.100" x="63.5" y="52.705" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.8462" y="50.8762" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="64.77" y="55.88" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LEDCOM" library="SparkFun" package="MOLEX-1X2_LOCK" value="" x="97.79" y="54.61" smashed="yes" rot="R180"/>
+<element name="LEDCOM" library="SparkFun" package="MOLEX-1X2_LOCK" value="0.100" x="97.79" y="54.61" smashed="yes" rot="R180"/>
 <element name="P1" library="Discreter" package="3P-SMD-2X4.8" value="CA   CC" x="93.345" y="49.53" smashed="yes" rot="R180">
 <attribute name="NAME" x="95.758" y="48.26" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="93.4451" y="49.53" size="1.016" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R1" library="SparkFun" package="AXIAL-0.4" value="" x="43.18" y="16.51" smashed="yes" rot="R180">
+<element name="R1" library="SparkFun" package="AXIAL-0.4" value="12k" x="43.18" y="16.51" smashed="yes" rot="R180">
 <attribute name="NAME" x="46.99" y="19.05" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="45.212" y="16.891" size="1.016" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
@@ -1050,76 +1050,76 @@ design rules under a new name.
 <attribute name="NAME" x="37.465" y="51.81" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="41.275" y="44.075" size="1.016" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="SJ1" library="jumper" package="SJ" value="" x="83.82" y="48.26" smashed="yes" rot="R270">
+<element name="SJ1" library="jumper" package="SJ" value="OFF" x="83.82" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="84.963" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="83.82" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ10" library="jumper" package="SJ" value="" x="60.96" y="48.26" smashed="yes" rot="R270">
+<element name="SJ10" library="jumper" package="SJ" value="OFF" x="60.96" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.103" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="60.96" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ11" library="jumper" package="SJ" value="" x="58.42" y="48.26" smashed="yes" rot="R270">
+<element name="SJ11" library="jumper" package="SJ" value="OFF" x="58.42" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="59.563" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="58.42" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ12" library="jumper" package="SJ" value="" x="55.88" y="48.26" smashed="yes" rot="R270">
+<element name="SJ12" library="jumper" package="SJ" value="OFF" x="55.88" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.023" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="55.88" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ13" library="jumper" package="SJ" value="" x="53.34" y="48.26" smashed="yes" rot="R270">
+<element name="SJ13" library="jumper" package="SJ" value="OFF" x="53.34" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="54.483" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="53.34" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ14" library="jumper" package="SJ" value="" x="50.8" y="48.26" smashed="yes" rot="R270">
+<element name="SJ14" library="jumper" package="SJ" value="OFF" x="50.8" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="51.943" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="50.8" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ15" library="jumper" package="SJ" value="" x="48.26" y="48.26" smashed="yes" rot="R270">
+<element name="SJ15" library="jumper" package="SJ" value="OFF" x="48.26" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.403" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="48.26" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ16" library="jumper" package="SJ" value="" x="45.72" y="48.26" smashed="yes" rot="R270">
+<element name="SJ16" library="jumper" package="SJ" value="OFF" x="45.72" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.863" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="45.72" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ2" library="jumper" package="SJ" value="" x="81.28" y="48.26" smashed="yes" rot="R270">
+<element name="SJ2" library="jumper" package="SJ" value="OFF" x="81.28" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="82.423" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="81.28" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ3" library="jumper" package="SJ" value="" x="78.74" y="48.26" smashed="yes" rot="R270">
+<element name="SJ3" library="jumper" package="SJ" value="OFF" x="78.74" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="79.883" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="78.74" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ4" library="jumper" package="SJ" value="" x="76.2" y="48.26" smashed="yes" rot="R270">
+<element name="SJ4" library="jumper" package="SJ" value="OFF" x="76.2" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="77.343" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="76.2" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ5" library="jumper" package="SJ" value="" x="73.66" y="48.26" smashed="yes" rot="R270">
+<element name="SJ5" library="jumper" package="SJ" value="OFF" x="73.66" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.803" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="73.66" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ6" library="jumper" package="SJ" value="" x="71.12" y="48.26" smashed="yes" rot="R270">
+<element name="SJ6" library="jumper" package="SJ" value="OFF" x="71.12" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="72.263" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="71.12" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ7" library="jumper" package="SJ" value="" x="68.58" y="48.26" smashed="yes" rot="R270">
+<element name="SJ7" library="jumper" package="SJ" value="OFF" x="68.58" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="69.723" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="68.58" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ8" library="jumper" package="SJ" value="" x="66.04" y="48.26" smashed="yes" rot="R270">
+<element name="SJ8" library="jumper" package="SJ" value="OFF" x="66.04" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="67.183" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="66.04" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="SJ9" library="jumper" package="SJ" value="" x="63.5" y="48.26" smashed="yes" rot="R270">
+<element name="SJ9" library="jumper" package="SJ" value="OFF" x="63.5" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="64.643" y="49.911" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="63.5" y="47.8599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="TX" library="SparkFun-LED" package="LED3MM" value="" x="21.59" y="35.56" smashed="yes" rot="R90">
+<element name="TX" library="SparkFun-LED" package="LED3MM" value="G" x="21.59" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.209" y="37.465" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="23.241" y="37.465" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="U$1" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="17.78" y="-11.43" smashed="yes"/>
-<element name="U$2" library="MRCS-prop65warningTop" package="CA-PROP65WARNING" value="CA-PROP65WARNING" x="43.18" y="24.13" smashed="yes"/>
+<element name="U$2" library="MRCS-prop65warningTop" package="CA-PROP65WARNING" value="Prop65" x="43.18" y="24.13" smashed="yes"/>
 <element name="U1" library="maxim" package="DIL14" value="MAX3465CPD" x="10.16" y="29.21" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="10.16" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="42M5444" x="10.16" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1136,40 +1136,40 @@ design rules under a new name.
 <attribute name="NAME" x="21.336" y="9.779" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="23.114" y="12.065" size="1.016" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="IO3" library="SparkFun" package="1X08" value="" x="83.82" y="42.545" smashed="yes" rot="R180">
+<element name="IO3" library="SparkFun" package="1X08" value="0.100" x="83.82" y="42.545" smashed="yes" rot="R180">
 <attribute name="NAME" x="85.1662" y="40.7162" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="85.09" y="45.72" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="IO4" library="SparkFun" package="1X08" value="" x="63.5" y="42.545" smashed="yes" rot="R180">
+<element name="IO4" library="SparkFun" package="1X08" value="0.100" x="63.5" y="42.545" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.8462" y="40.7162" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="64.77" y="45.72" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="J1" library="SPCoast" package="1X08_LOCK_LONGPADS" value="" x="83.82" y="58.42" smashed="yes" rot="R180">
+<element name="J1" library="SPCoast" package="1X08_LOCK_LONGPADS" value="0.100" x="83.82" y="58.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="85.09" y="56.515" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="85.09" y="61.595" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="J2" library="SPCoast" package="1X08_LOCK_LONGPADS" value="" x="63.5" y="58.42" smashed="yes" rot="R180">
+<element name="J2" library="SPCoast" package="1X08_LOCK_LONGPADS" value="0.100" x="63.5" y="58.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.77" y="56.515" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="64.77" y="61.595" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="U$3" library="SPCoast" package="MRCS-LOGO" value="" x="78.74" y="6.35" smashed="yes"/>
+<element name="U$3" library="SPCoast" package="MRCS-LOGO" value="MRCS" x="78.74" y="6.35" smashed="yes"/>
 <element name="RS485-3" library="SPCoast" package="CMRINET-3.5MM" value="3.5mm" x="11.43" y="56.515" smashed="yes">
 <attribute name="NAME" x="17.78" y="55.245" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="20.32" y="59.055" size="1.016" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="CON1" library="SPCoast" package="1X06-SIP_LOCK" value="" x="90.17" y="63.5" smashed="yes" rot="R180">
+<element name="CON1" library="SPCoast" package="1X06-SIP_LOCK" value="0.100" x="90.17" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="86.36" y="70.866" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="91.44" y="66.421" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="CON2" library="SPCoast" package="1X06-SIP_LOCK" value="" x="73.66" y="63.5" smashed="yes" rot="R180">
+<element name="CON2" library="SPCoast" package="1X06-SIP_LOCK" value="0.100" x="73.66" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="68.58" y="70.866" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="74.93" y="66.421" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="CON3" library="SPCoast" package="1X06-SIP_LOCK" value="" x="57.15" y="63.5" smashed="yes" rot="R180">
+<element name="CON3" library="SPCoast" package="1X06-SIP_LOCK" value="0.100" x="57.15" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.34" y="70.866" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="58.42" y="66.421" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="CON4" library="SPCoast" package="1X06-SIP_LOCK" value="" x="40.64" y="63.5" smashed="yes" rot="R180">
+<element name="CON4" library="SPCoast" package="1X06-SIP_LOCK" value="0.100" x="40.64" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.83" y="70.866" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="41.91" y="66.421" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
