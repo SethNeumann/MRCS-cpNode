@@ -2,13 +2,13 @@
 ## License: Creative Commons Attribution-NonCommercial-ShareAlike
 
 cpNode and I/O expander (IOX) boards have been updated to version
-2.5. Based on customer feedback, and our design and installation
+2.6. Based on customer feedback, and our design and installation
 experience, the changes were made to provide more efficient and
 flexible physical layout of some components.
 
-  * Rev 2.5 boards are 100% backward compatible with current versions. No software changes are needed.
+  * Rev 2.6 boards are 100% backward compatible with current versions. No software changes are needed.
 
-Version 2.5 brings the following improvements to the proven cpNode design:
+Version 2.6 brings the following improvements to the proven cpNode design:
 
   * CMRInet interface connection has been made consistent with five position pads (R+, R-,T+,T-,SHLD).for 3.5mm screw terminals, we've removed some rarely used configurations
   * Input/Output pads moved .2" back from edge for better DIN rail clearance. The I/O option pad area accepts standard DIP component headers with 0.4" pad spacing.
